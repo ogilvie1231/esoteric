@@ -1,4 +1,4 @@
-h2 {
+.mainName {
     text-align: center;
     font-family: 'Lobster', cursive;
     color: aqua;
@@ -12,3 +12,41 @@ nav {
     color: cornsilk;
 }
 
+.name {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: white;
+    padding-top: 5%;
+}
+
+p {
+    color: white;
+}
+
+.about {
+    float: left;
+    overflow: auto;
+}
+
+.perImg {
+    float: left;  
+    margin: 5px; 
+    width: 300px;
+}
+
+.indText {
+    text-align: justify;
+}
+
+.aboutSec {
+    clear: both;
+    margin: 10px;
+}
+
+.igFeed {
+    margin: 40px;
+}
+
+.homeIcon {
+    width: 15%;
+}
