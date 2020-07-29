@@ -1,52 +1,63 @@
 .mainName {
-    text-align: center;
-    font-family: 'Lobster', cursive;
-    color: aqua;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: aqua;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 nav {
-    color: cornsilk;
+  color: #6e3218;
+  font-family: "Playfair Display", serif;
 }
-
+a {
+  color: #6e3218 !important;
+}
 .name {
-    text-align: center;
-    font-family: 'Lobster', cursive;
-    color: white;
-    padding-top: 5%;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: white;
+  padding-top: 5%;
 }
 
 p {
-    color: white;
+  color: white;
 }
 
 .about {
-    float: left;
-    overflow: auto;
+  float: left;
+  overflow: auto;
 }
 
 .perImg {
-    float: left;  
-    margin: 5px; 
-    width: 300px;
+  float: left;
+  margin: 5px;
+  width: 300px;
 }
 
 .indText {
-    text-align: justify;
+  text-align: justify;
 }
 
 .aboutSec {
-    clear: both;
-    margin: 10px;
+  clear: both;
+  margin: 10px;
 }
 
 .igFeed {
-    margin: 40px;
+  margin: 40px;
 }
 
 .homeIcon {
-    width: 15%;
+  width: 15%;
+}
+
+.mainImg {
+  display: block;
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
