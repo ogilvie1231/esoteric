@@ -101,3 +101,112 @@ p {
       text-align: center;
       margin-top: 4%;
   }
+
+  @media screen and (max-width: 525px){
+
+    .mainName {
+        text-align: center;
+        font-family: "Lobster", cursive;
+        color: aqua;
+      }
+      
+      body {
+        background-color: black;
+      }
+      
+      nav {
+        color: #6e3218;
+        font-family: "Playfair Display", serif;
+        background-color: rgb(218, 218, 218)!important;
+      }
+      a {
+        color: #6e3218 !important;
+      }
+      .name {
+        text-align: center;
+        font-family: "Lobster", cursive;
+        color: #6e3218;
+        padding-top: 5%;
+      }
+      
+      p {
+        color: white;
+      }
+      
+      .about {
+        float: left;
+        overflow: auto;
+      }
+      
+      .perImg {
+        float: left;
+        margin: 5px;
+        max-width: 100%;
+      }
+      
+      .indText {
+        text-align: justify;
+        clear: both;
+      }
+      
+      .aboutSec {
+        clear: both;
+        margin: 10px;
+      }
+      
+      .igFeed {
+        margin: 40px;
+      }
+      
+      .homeIcon {
+        max-width: 15%;
+      }
+      
+      .mainImg {
+        display: block;
+        margin-top: 8%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        
+      }
+      
+      .address, .mainAbt {
+          text-align: center;
+          color: #6e3218;
+          font-family: "Playfair Display", serif;
+          margin-top: 5%;
+      }
+      
+      #pixlee_container {
+          margin-top: 8%;
+      }
+      
+      .aboutHr {
+          background-color: white;
+          /* border-width: 20px; */
+      }
+      
+      .mapouter {
+          position: relative;
+          text-align: right;
+          height: 100%;
+          width: 100%;
+          display: block;
+          margin: auto;
+          padding: 5%;
+        }
+        .gmap_canvas {
+          overflow: hidden;
+          background: none !important;
+          height: 100%;
+          width: 100%;
+        }
+      
+        .addressMap {
+            color: white;
+            text-align: center;
+            margin-top: 4%;
+        }
+
+  }
