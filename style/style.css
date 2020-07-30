@@ -35,7 +35,7 @@ p {
 .perImg {
   float: left;
   margin: 5px;
-  width: 300px;
+  max-width: 300px;
 }
 
 .indText {
@@ -83,17 +83,17 @@ p {
 .mapouter {
     position: relative;
     text-align: right;
-    height: 500px;
-    width: 600px;
+    height: 100%;
+    width: 100%;
     display: block;
     margin: auto;
-    padding-bottom: 5%;
+    padding: 5%;
   }
   .gmap_canvas {
     overflow: hidden;
     background: none !important;
-    height: 500px;
-    width: 600px;
+    height: 100%;
+    width: 100%;
   }
 
   .addressMap {
